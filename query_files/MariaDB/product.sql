@@ -1,0 +1,1 @@
+select pt.ProductName, pt.Price, pt.ProductDescription from product as pt

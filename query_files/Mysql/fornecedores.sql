@@ -1,0 +1,1 @@
+SELECT * FROM bdvendas.tb_fornecedores;

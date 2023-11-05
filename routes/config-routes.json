@@ -1,0 +1,36 @@
+{
+    "Configurations":{
+
+        "Api_configurations": [
+            {
+                "Instance": "Mysql",
+                "Database": "money_api",
+                "Description": "List all categories in the product",
+                "QueryFile": "./query_files/Mysql/category.sql",
+                "Route": "/v1/categories"
+            },
+            {
+                "Instance": "Mysql",
+                "Database": "bdvendas",
+                "Description": "List all categories in the product",
+                "QueryFile": "./query_files/Mysql/fornecedores.sql",
+                "Route": "/v1/fornecedores"
+            },
+            {
+                "Instance": "Mariadb",
+                "Database": "DP_WORKSHOP",
+                "Description": "List all categories in the product",
+                "QueryFile": "./query_files/MariaDB/product.sql",
+                "Route": "/v1/product"
+            },
+            {
+                "Instance": "Mariadb",
+                "Database": "DP_WORKSHOP",
+                "Description": "List all categories in the product",
+                "QueryFile": "./query_files/MariaDB/product-v2.sql",
+                "Route": "/v2/product"
+            }
+        ]
+
+    }
+}
